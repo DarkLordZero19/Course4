@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e91;
+}
+
+.accordion-item {
+  border: 1px solid #dce3f0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.accordion-item.active {
+  border-color: #2c3e91;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.accordion-title {
+  padding: 16px 20px;
+  background: #f0f4ff;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.accordion-title:hover {
+  background: #e2e8ff;
+}
+
+.accordion-content {
+  padding: 16px 20px;
+  background: #fff;
+  border-top: 1px solid #dce3f0;
+  animation: fadeIn 0.3s ease;
+}
+
+.accordion-content p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
