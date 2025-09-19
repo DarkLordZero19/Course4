@@ -1,9 +1,12 @@
-# Course4
-Репозиторий для обучения в четвертом курсе.
-- Создание динамического списка постов: Задание в котором закреплялись навыки программной генерации HTML на основе массива данных. Это блог.
-- Создание первого React-компонента: Задание в котором закрепляются навыки создания React-приложение с помощью Vite, очищение его от стандартного шаблона, создание своего первого функционального компонента и отображение его на странице, используя переменные внутри JSX. В нём используются карточки.
-- Создание интерактивного модального окна: Задание в котором нужно применить хук useState и обработку событий для создания интерактивного, управляемого компонента. Есть видимость элементов.
-- Создание списка преимуществ продукта: Задание в котором закрепляются навыки декомпозиции интерфейса на компоненты. Попрактиковаться в передаче данных через props и в динамическом рендеринге списка элементов с использованием метода .map() и уникальных ключей key.
-- Создание интерактивного квиза (викторины): Самостоятельная Работа в котором нужно научиться управлять сложным состоянием приложения (текущий вопрос, счет, завершение игры), выстраивать логику взаимодействия между компонентами и использовать условный рендеринг для отображения разных экранов (вопрос/результаты).
-- Создание компонента «Аккордеон» (FAQ): Задание в котором надо научиться создавать интерактивный список, в котором только один элемент может быть «активным» в один момент времени, и передавать обработчики событий от родительского компонента к дочернему
-- Создание формы обратной связи: Задание в котором нужно научиться создавать и управлять сложными формами в React. Освоить паттерн «управляемого компонента» для различных элементов (input, textarea, select, checkbox), обрабатывать отправку формы и собирать данные из состояний в единый объект
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
