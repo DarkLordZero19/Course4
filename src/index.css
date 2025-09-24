@@ -1,0 +1,136 @@
+/* Основная оболочка */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  color: #333;
+}
+
+/* Контейнер приложения */
+.app-container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 16px;
+  width: 400px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2d3436;
+  font-size: 24px;
+}
+
+/* Стили формы */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #66a6ff;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  border-color: #0056ff;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  background: #66a6ff;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #0056ff;
+}
+
+/* Список задач */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, background 0.3s;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  background: #eef3ff;
+}
+
+li span {
+  flex: 1;
+  font-size: 16px;
+}
+
+/* Кнопки задач */
+li button {
+  border: none;
+  padding: 8px 12px;
+  margin-left: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+li button:first-of-type {
+  background: #55efc4;
+  color: #fff;
+}
+
+li button:first-of-type:hover {
+  background: #00b894;
+  transform: scale(1.05);
+}
+
+li button:last-of-type {
+  background: #ff7675;
+  color: #fff;
+}
+
+li button:last-of-type:hover {
+  background: #d63031;
+  transform: scale(1.05);
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
