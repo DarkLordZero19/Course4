@@ -1,0 +1,85 @@
+/* Основной фон */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dbedff;
+  color: #333;
+  height: 100vh; /* Растягивается на всю высоту */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Контейнер приложения */
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Карточка с фильтром */
+.search-container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Заголовок */
+.search-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #1a237e;
+}
+
+/* Поле ввода */
+.search-container input {
+  width: 100%;
+  padding: 10px 14px; /* Чтобы совпадало с padding списка */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  transition: border 0.2s ease;
+  box-sizing: border-box; /* Для выравнивания с ul */
+}
+
+/* Выделение ввода */
+.search-container input:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.4);
+}
+
+/* Список */
+.search-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: left; /* Список выравниваем влево */
+  width: 100%;
+  box-sizing: border-box; /* Чтобы ширина учитывала padding и border */
+}
+
+/* Элемент списка */
+.search-container li {
+  padding: 10px 14px;
+  border-bottom: 1px solid #eee;
+  cursor: default;
+}
+
+.search-container li:last-child {
+  border-bottom: none;
+}
+
+.search-container li:hover {
+  background-color: #f9f9f9;
+}

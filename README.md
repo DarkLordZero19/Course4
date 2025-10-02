@@ -1,13 +1,70 @@
-# Course4
-Репозиторий для обучения в четвертом курсе.
-- Создание динамического списка постов: Задание в котором закреплялись навыки программной генерации HTML на основе массива данных. Это блог.
-- Создание первого React-компонента: Задание в котором закрепляются навыки создания React-приложение с помощью Vite, очищение его от стандартного шаблона, создание своего первого функционального компонента и отображение его на странице, используя переменные внутри JSX. В нём используются карточки.
-- Создание интерактивного модального окна: Задание в котором нужно применить хук useState и обработку событий для создания интерактивного, управляемого компонента. Есть видимость элементов.
-- Создание списка преимуществ продукта: Задание в котором закрепляются навыки декомпозиции интерфейса на компоненты. Попрактиковаться в передаче данных через props и в динамическом рендеринге списка элементов с использованием метода .map() и уникальных ключей key.
-- Создание интерактивного квиза (викторины): Самостоятельная Работа в котором нужно научиться управлять сложным состоянием приложения (текущий вопрос, счет, завершение игры), выстраивать логику взаимодействия между компонентами и использовать условный рендеринг для отображения разных экранов (вопрос/результаты).
-- Создание компонента «Аккордеон» (FAQ): Задание в котором надо научиться создавать интерактивный список, в котором только один элемент может быть «активным» в один момент времени, и передавать обработчики событий от родительского компонента к дочернему
-- Создание формы обратной связи: Задание в котором нужно научиться создавать и управлять сложными формами в React. Освоить паттерн «управляемого компонента» для различных элементов (input, textarea, select, checkbox), обрабатывать отправку формы и собирать данные из состояний в единый объект
-- Создание интерактивного «Списка Задач»: Задание в котором нужно научиться эффективно использовать компоненты, props, хук useState, обрабатывать события и создавать управляемые элементы форм для построения интерактивных пользовательских интерфейсов в React.
-- Создание интерактивного «Списка покупок»: Задание в котором также нужно научиться эффективно использовать компоненты, props, хук useState, обрабатывать события и создавать управляемые элементы форм для построения интерактивных пользовательских интерфейсов в React.
-- Создание интерактивного фильтра поиска: Задание в котором нужно научиться использовать хук useEffect для выполнения побочных эффектов в ответ на действия пользователя, а также освоить два главных сценария: выполнение эффекта при изменении состояния и однократное выполнение при монтировании компонента.
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
