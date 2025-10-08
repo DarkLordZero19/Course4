@@ -1,0 +1,129 @@
+body {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #f9fafc 0%, #eef3f9 100%);
+  margin: 0;
+  padding: 0;
+  color: #2d3436;
+}
+
+.App {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 16px 0;
+}
+
+nav a {
+  color: #34495e;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background: rgba(52, 152, 219, 0.1);
+  color: #0984e3;
+}
+
+nav a.active {
+  background: #0984e3;
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(9, 132, 227, 0.3);
+}
+
+main {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: #2f3640;
+  letter-spacing: 0.5px;
+}
+
+/* Список рецептов */
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+li {
+  background: #fdfdfd;
+  border: 1px solid #e6e9ef;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+li a {
+  color: #0984e3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Детальная страница рецепта */
+.recipe-detail {
+  line-height: 1.6;
+}
+
+.recipe-detail h1 {
+  margin-bottom: 10px;
+}
+
+.recipe-detail ul {
+  list-style-type: none;
+  padding-left: 25px;
+  margin: 10px 0 20px;
+}
+
+.recipe-detail p {
+  background: #f8f9fb;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e3e6eb;
+}
+
+/* Страница 404 */
+.not-found {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+  color: #c0392b;
+}
+
+.not-found p {
+  color: #636e72;
+}
