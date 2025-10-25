@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Arial Tahoma, Verdana, sans-serif;
+    background-color: #f7f7f6;
+    margin: 0px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #3d3d3d;
+}
+
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #f7f7f6;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 260px;
+    transition: transform 0.2s ease, box shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 18px;
+    color: rgb(36, 0, 36);
+}
+
+.product-card.price {
+    font-weight: bold;
+    color: #1f1f1f;
+    margin: 8px 0;
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.status-available {
+    background-color: #d4d4d4;
+    color: #29aa47;
+}
+
+.status-unavailable {
+    background-color: #d4d4d4;
+    color: #eb4b3f;
+}
+
+.product-card span {
+    display: inline-block;
+    margin-top: 5px;
+    color: #e63844;
+    font-weight: 600;
+}
